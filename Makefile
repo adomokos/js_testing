@@ -1,10 +1,14 @@
+REPORTER = dot
+
 test: test-bdd
 
 test-bdd:
-	@./node_modules/jasmine-node/bin/jasmine-node \
-		spec
+	@./node_modules/mocha/bin/mocha \
+		--reporter $(REPORTER) \
+		--ui bdd \
 
 test-doc:
-	@./node_modules/jasmine-node/bin/jasmine-node \
-		spec \
-		--verbose
+	@./node_modules/mocha/bin/mocha \
+		--reporter list \
+		--ui bdd \
+
