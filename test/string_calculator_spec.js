@@ -3,6 +3,7 @@ global.window = jsdom.jsdom().createWindow();
 var should = require('should');
 
 var StringCalculatorApp = require('../public/js/string_calculator');
+
 module.exports =
   {
     "StringCalculator": {
