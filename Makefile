@@ -2,6 +2,11 @@ REPORTER = dot
 
 test: test-bdd
 
+test-exports:
+	@./node_modules/mocha/bin/mocha \
+		--reporter $(REPORTER) \
+		--ui exports \
+
 test-bdd:
 	@./node_modules/mocha/bin/mocha \
 		--reporter $(REPORTER) \
