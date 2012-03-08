@@ -12,8 +12,15 @@
 
         $('#calculate').click(function() {
           var input_text = $('#input_text').val();
+          input_text = $.trim(input_text);
 
-          result_div.text(input_text);
+          // The actual application logic
+          var result = 0;
+          if (input_text !== '') {
+            result = parseInt(input_text);
+          }
+
+          result_div.text(result);
           result_div.show();
         });
       });
