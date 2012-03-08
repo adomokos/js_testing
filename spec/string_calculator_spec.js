@@ -1,4 +1,13 @@
+var jsdom = require('jsdom');
+global.window = jsdom.jsdom().createWindow();
+
+var StringCalculatorApp = require('../public/js/string_calculator');
+
 describe("StringCalculator", function() {
+
+  beforeEach(function() {
+    this.StringCalculator = window.StringCalculator;
+  });
 
   describe("when an empty string is passed in", function() {
     it("returns 0", function() {

@@ -1,4 +1,4 @@
-var StringCalculator = {
+window.StringCalculator = StringCalculator = {
   add: function(inputString) {
     if(inputString === '') {
       return 0;
