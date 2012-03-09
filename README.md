@@ -18,5 +18,6 @@ The [03b-mocha-exports](https://github.com/adomokos/js_testing/tree/03b-mocha-ex
 You can run the specs by executing ```make test-exports``` in the terminal.
 
 [04-mocha-browser](https://github.com/adomokos/js_testing/tree/04-mocha-browser) branch contains the browser based examples for Mocha. It's very similar to the 01-jasmine-browser example where the specs are executed in the browser.
+Run the specs by opening up the ```test/browser/index.html``` in your browser.
 
 Please ping me if you have any questions.
