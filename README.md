@@ -1,6 +1,6 @@
 #### JS Testing project for the CleRB presentation
 
-You can watch [Joe Fiorini's](http://http://joefiorini.com/) and my presentation on our history of JavaScript Testing [here](http://www.leandog.tv/clerb-video/).
+You can watch [Joe Fiorini](http://http://joefiorini.com/) and my presentation on our history of JavaScript Testing [here](http://www.leandog.tv/clerb-video/).
 
 The project uses the [String Calculator kata](http://osherove.com/tdd-kata-1/).
 
